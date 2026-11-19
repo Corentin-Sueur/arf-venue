@@ -1,0 +1,37 @@
+{
+  "host": {
+    "displayName": "Akademiska Roddföreningen",
+    "identifier": "did:web:akademiskarodd.se",
+    "documentationUrl": "https://www.akademiskarodd.se/"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:akademiskarodd.se:skill:corporate-rowing",
+      "displayName": "Book corporate rowing on Brunnsviken",
+      "type": "application/ai-skill+md",
+      "url": "https://event.akademiskarodd.se/skills/corporate-rowing.md",
+      "description": "How to book a three-hour team rowing session for 4 to 20 colleagues at Akademiska Roddföreningen, Stockholm: programme, prices, what to bring, booking form and contact.",
+      "capabilities": ["CorporateRowingBooking", "TeamBuildingStockholm"],
+      "representativeQueries": [
+        "Book a team-building rowing session in Stockholm for 12 colleagues",
+        "How much does corporate rowing at Brunnsviken cost?",
+        "Find an outdoor team activity on the water near Stockholm University",
+        "Boka företagsrodd för vårt arbetslag i Stockholm"
+      ]
+    },
+    {
+      "identifier": "urn:air:akademiskarodd.se:skill:venue-rental",
+      "displayName": "Rent the boathouse party venue on Brunnsviken",
+      "type": "application/ai-skill+md",
+      "url": "https://hyralokal.akademiskarodd.se/skills/venue-rental.md",
+      "description": "How to rent Akademiska Roddföreningen's boathouse in Stockholm for a private party of up to 50 guests, May to October: rooms, equipment, prices, rules, availability calendar and request form.",
+      "capabilities": ["VenueRental", "PartyVenueStockholm"],
+      "representativeQueries": [
+        "Find a party venue by the water in Stockholm for 40 guests",
+        "How much does it cost to rent the rowing club boathouse at Brunnsviken?",
+        "Is the Akademiska Roddföreningen party venue free on a Saturday in June?",
+        "Hyra festlokal vid vattnet i Stockholm för en kräftskiva"
+      ]
+    }
+  ]
+}

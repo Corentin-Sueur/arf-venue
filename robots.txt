@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hyralokal.akademiskarodd.se/sitemap.xml
